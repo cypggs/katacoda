@@ -1,8 +1,8 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
+  "title": "study k8s",
+  "description": "study k8s",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "60 minutes",
   "details": {
     "steps": [{
       "title": "Step 1 - Run Command",
