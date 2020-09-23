@@ -81,14 +81,13 @@ mount -vvv -t nfs localhost:/data/nfs_client /mnt`{{execute}}
 `kubectl create ns ocp
 kubectl apply -f https://raw.githubusercontent.com/cypggs/katacoda-scenarios/master/ocp.yaml`{{execute}}
 
-### 安装reids-sts
+### 安装redis-sts
 
 `kubectl apply -f https://raw.githubusercontent.com/cypggs/katacoda-scenarios/master/redis-sts.yaml`{{execute}}
-# 登陆其中一台reids
+# 登陆其中一台 redis
 `kubectl exec -it redis-0 -- bash`{{execute}}
 # 建立集群
-`redis-trib.rb create --replicas 1 \
-\`dig +short redis-0.redis-headless.default.svc.cluster.local\`:6379 \
+`redis-trib.rb create --replicas 1 \`dig +short redis-0.redis-headless.default.svc.cluster.local\`:6379 \
 \`dig +short redis-1.redis-headless.default.svc.cluster.local\`:6379 \
 \`dig +short redis-2.redis-headless.default.svc.cluster.local\`:6379 \
 \`dig +short redis-3.redis-headless.default.svc.cluster.local\`:6379 \
