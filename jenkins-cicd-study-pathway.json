@@ -1,5 +1,11 @@
 {
   "title": "jenkins-cicd-study",
   "description": "jenkins-cicd-study",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "jenkins-cicd-study",
+      "title": "jenkins-cicd-study",
+      "description": "jenkins-cicd-study"
+    }
+  ]
 }

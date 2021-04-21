@@ -1,3 +1,8 @@
+https://katacoda.com/scenario-examples/scenarios/create-course
+katacoda courses:create
+katacoda courses:add:scenarios
+
+
 # Interactive Katacoda Scenarios
 
 [![](http://shields.katacoda.com/katacoda/cypggs/count.svg)](https://www.katacoda.com/cypggs "Get your profile on Katacoda.com")
